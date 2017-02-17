@@ -15,10 +15,13 @@ var spinner = ora('building for production...')
 spinner.start()
 
 var assetsPath = path.join(config.build.assetsRoot, config.build.assetsSubDirectory)
+var dataPath = path.join(config.build.assetsRoot, config.build.dataDirectory)
 shell.rm('-rf', assetsPath)
 shell.mkdir('-p', assetsPath)
+shell.mkdir('-p', dataPath)
 shell.config.silent = true
 shell.cp('-R', 'static/*', assetsPath)
+shell.cp('-R', 'src/data/*', dataPath)  //最好不要这样写
 shell.config.silent = false
 
 webpack(webpackConfig, function (err, stats) {

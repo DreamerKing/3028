@@ -1,11 +1,17 @@
 <template>
 	<div>
-		Show
+		<show-picture-component></show-picture-component>
 	</div>
 </template>
 <style></style>
 <script>
-	export default {
-		name: 'Show'
-	}
+  import ShowPicture from 'components/ShowPicture'
+  import ShowWords from 'components/ShowWords'
+  export default {
+    name: 'Show',
+    components: {
+      'show-picture-component': ShowPicture,
+      'show-words-component': ShowWords
+    }
+  }
 </script>
