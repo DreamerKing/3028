@@ -17,7 +17,9 @@
   ]
   export default {
     name: 'QrcodeGroup',
-    data: qrcodes,
+    data: function () {
+      return qrcodes
+    },
     components: {
       'qrcode-componet': Qrcode
     }
