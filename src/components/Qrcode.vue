@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<img v-bind:src="qrSrc"/>
-		<span>{{name}}</span>
+		<img :src="qrcode.qrSrc"/>
+		<span>{{qrcode.name}}</span>
 	</div>
 </template>
 <style></style>

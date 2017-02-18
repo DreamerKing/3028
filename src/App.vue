@@ -2,25 +2,33 @@
   <div id="app">
     <img src="./assets/imgs/logo.png">
     <navigator-component></navigator-component>
-    <!-- <show-component></show-component>   -->
     <router-view></router-view>
-    <product-qrcode-component></product-qrcode-component>
+    <product-qrcode-component :products="products"></product-qrcode-component>
     <footer-component></footer-component>  
   </div>
 </template>
 
 <script>
+import Data from 'data/test.json'
 import Navigator from './components/Navigator'
-import Show from './components/Show'
+// import Show from './components/Show'
 import ProductQrcode from './components/ProductQrcode'
 import Footer from './components/Footer'
 export default {
   name: 'app',
   components: {
     'navigator-component': Navigator,
-    'show-component': Show,
+    // 'show-component': Show,
     'product-qrcode-component': ProductQrcode,
     'footer-component': Footer
+  },
+  data: function () {
+    return {
+      products: Data.products
+    }
+  },
+  created: function () {
+    console.log(this.products)
   }
 }
 </script>

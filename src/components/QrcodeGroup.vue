@@ -8,20 +8,22 @@
   const qrcodes = [
     {
       name: '淘宝二维码',
-      qrSrc: '../assets/imgs/qr-taobao.png'
+      qrSrc: require('assets/imgs/qr-taobao.png')
     },
     {
       name: '微信二维码',
-      qrSrc: '../assets/imgs/qr-weixin.png'
+      qrSrc: require('assets/imgs/qr-weixin.png')
     }
   ]
   export default {
     name: 'QrcodeGroup',
     data: function () {
-      return qrcodes
+      return {
+        qrcodes: qrcodes
+      }
     },
     components: {
-      'qrcode-componet': Qrcode
+      'qrcode-component': Qrcode
     }
 }
 </script>

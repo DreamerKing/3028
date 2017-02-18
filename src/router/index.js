@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import Main from 'components/Main'
 import Show from 'components/Show'
 import ShowPicture from 'components/ShowPicture'
 import ShowWords from 'components/ShowWords'

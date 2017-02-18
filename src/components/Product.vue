@@ -1,12 +1,18 @@
 <template>
 	<div>
 		<h2>产品介绍</h2>
-		<p>类别</p>
+		<div class="product">
+			<a v-for="product in products" :href="product.link" target="_blank">{{product.name}}</a>
+		</div>
 	</div>
 </template>
 <style></style>
 <script>
   export default {
-    name: 'Product'
+    name: 'Product',
+    props: ['products'],
+    beforeCreate: function () {
+      console.log('DK', 'products')
+    }
   }
 </script>

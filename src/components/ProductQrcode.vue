@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<product-component></product-component>
+		<product-component :products="products"></product-component>
 		<qrcode-group-component></qrcode-group-component>
 	</div>
 </template>
@@ -15,6 +15,7 @@
     components: {
       'product-component': Product,
       'qrcode-group-component': QrcodeGroup
-    }
+    },
+    props: ['products']
   }
 </script>
