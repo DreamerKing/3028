@@ -1,0 +1,35 @@
+{
+	"products":[
+		{ 
+			"name":"文具本册",
+			"link":"https://class302.taobao.com/category-1176387275.htm?spm=a1z10.3-c-s.w4010-14433753468.30.KZngay&search=y&catName=%B1%CA%BC%C7%B1%BE%7C%BC%C7%CA%C2%B1%BE#bd"
+		},
+		{
+			"name":"创意文具",
+			"link":"https://class302.taobao.com/category-1177984718.htm?spm=a1z10.5-c-s.w5842-14829100663.57.m3qy2V&search=y&catName=%B4%B4%D2%E2%CE%C4%BE%DF#bd"
+		},
+		{
+			"name":"可爱笔类",
+			"link":"https://class302.taobao.com/search.htm?keyword=%B1%CA&orderType=hotsell_desc"
+		},
+		{   "name":"居家小物",
+			"link":"https://class302.taobao.com/category-1178501933.htm?spm=a1z10.3-c-s.w4010-14433753468.88.zcrGHa&search=y&catName=%BC%D2%BE%D3#bd"
+		},
+		{
+			"name":"收纳生活",
+			"link":"https://class302.taobao.com/search.htm?keyword=%CA%D5%C4%C9&orderType=hotsell_desc"
+		},
+		{
+			"name":"数码潮物",
+			"link":"https://class302.taobao.com/category-1179556829.htm?spm=a1z10.3-c-s.w4010-14433753468.120.Eko9WY&search=y&catName=%CA%FD%C2%EB%B3%B1%CE%EF#bd"
+		},
+		{
+			"name":"秋冬保暖",
+			"link":"https://class302.taobao.com/category-1178491088.htm?spm=a1z10.5-c-s.w5842-14829100663.89.yryp2N&search=y&catName=%B6%AC%CF%C4%D0%DD%CF%D0#bd"
+		},
+		{
+			"name":"厨卫用具",
+			"link": "https://class302.taobao.com/search.htm?keyword=%B3%F8&orderType=hotsell_desc"
+		}
+	]
+}

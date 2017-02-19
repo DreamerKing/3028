@@ -10,15 +10,4 @@ new Vue({
   router,
   template: '<App/>',
   components: { App }
-  // beforeCreate: function () {
-  //   this.$http.get('data/test.json')
-  //     .then(res => {
-  //       console.log(res.body)
-  //     }, res => {
-  //       console.log(res)
-  //     })
-  // },
-  // created: function () {
-  //   console.log('Tesr>>>', json)
-  // }
 })

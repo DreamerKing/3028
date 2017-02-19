@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Show from 'components/Show'
 import ShowPicture from 'components/ShowPicture'
-import ShowWords from 'components/ShowWords'
+import ProductWord from 'components/ProductWord'
+import AboutWord from 'components/AboutWord'
 import Contact from 'components/Contact'
 Vue.use(Router)
 
@@ -10,18 +10,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Show',
-      component: Show
-    },
-    {
-      path: '/product',
       name: 'ShowPicture',
       component: ShowPicture
     },
     {
+      path: '/product',
+      name: 'ProductWord',
+      component: ProductWord
+    },
+    {
       path: '/about',
-      name: 'ShowWords',
-      component: ShowWords
+      name: 'AboutWords',
+      component: AboutWord
     },
     {
       path: '/contact',

@@ -3,6 +3,11 @@
 		<qrcode-component v-for="qrcode in qrcodes" :qrcode="qrcode"></qrcode-component>
 	</div>
 </template>
+<style>
+  .qrcode-group {
+    /*margin-top: 40px;*/
+  }
+</style>
 <script>
   import Qrcode from './Qrcode'
   const qrcodes = [
